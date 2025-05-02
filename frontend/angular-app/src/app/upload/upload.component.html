@@ -1,0 +1,10 @@
+<p>Upload Component Loaded</p>
+
+<input type="file" (change)="onFileSelected($event)" accept="video/mp4" />
+<div *ngIf="loading">Processing video…</div>
+
+<div *ngIf="videoUrl" style="position: relative; width: 640px;">
+    <video #videoPlayer [src]="videoUrl" controls width="640"></video>
+    <app-overlay *ngIf="videoElement" [videoRef]="videoElement" [detections]="detections">
+    </app-overlay>
+</div>
