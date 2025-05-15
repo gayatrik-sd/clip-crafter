@@ -1,4 +1,4 @@
-# 📽️ ClipCrafter
+# 📽️ ClipCrafter (Work in Progress)
 
 **ClipCrafter** is a GPU-accelerated web application for uploading videos, running AI inference (e.g., object detection using PyTorch), and visualizing results with real-time overlays in the browser.
 
